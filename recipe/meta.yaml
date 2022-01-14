@@ -11,16 +11,16 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python
+    - python >=3.5
     - pip
   run:
-    - python
-    - azure-core <2.0.0,>=1.8.2
+    - python >=3.5
+    - azure-core >=1.9.0,<2.0.0
 
 test:
   imports:
@@ -34,7 +34,9 @@ about:
   license_family: MIT
   license_file: LICENSE.md
   summary: Microsoft Azure Management Core Library for Python.
+  dev_url: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/core/azure-mgmt-core
 
 extra:
   recipe-maintainers:
     - tim-werner
+    - xylar
