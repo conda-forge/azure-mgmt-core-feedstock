@@ -1,11 +1,11 @@
-About azure-mgmt-core
-=====================
+About azure-mgmt-core-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-mgmt-core-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Azure/azure-sdk-for-python
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-mgmt-core-feedstock/blob/main/LICENSE.txt)
 
 Summary: Microsoft Azure Management Core Library for Python.
 
